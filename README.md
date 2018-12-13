@@ -17,6 +17,15 @@ python 3.5+
 $ pip install -r requirements.txt
 ```
 
+### Installation
+
+```
+$ git clone http://github.com/porcej/sleekmonkey
+$ cd sleekmonkey
+$ python3 setup.py install
+```
+
+
 ### Getting Started
 
 To use this Monkey patch, first import sleekxmpp then add the following code before you make use of SleekXMPP. 
