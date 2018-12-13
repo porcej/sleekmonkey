@@ -10,6 +10,14 @@ Changelog:
     - 2018-12-12 - Initial Commit
 """
 
+__author__ = "Joseph Porcelli (porcej@gmail.com)"
+__version__ = "1.0.0"
+__version_info__ = (1, 0, 0, '', 0)
+__copyright__ = "Copyright (c) 2018 Joseph Porcelli"
+__license__ = "MIT"
+
+__all__ = ['sleekmonkey']
+
 import sleekxmpp
 import logging
 
