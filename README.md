@@ -8,12 +8,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This module is designed to work with `Python >=3.5`.  `Python 2` may work, your milage may very.  The only other requirment is SleekXMPP 1.3.3.  This author assums the user posses a working knowldge of Python and the tools available in the user's choosen envirnment.
+This module is designed to work with `Python 3.5+`.  `Python 2` may work, your milage may very.  The only other requirment is SleekXMPP 1.3.3.  This author assums the user posses a working knowldge of Python and the tools available in the user's choosen envirnment.
 
 The `requirments.txt` file contains a listing of the required Python Modules.  These can be installed using `pip` with the `-r` option.
 
 ```
-python >=  3.5
+python 3.5+
 $ pip install -r requirements.txt
 ```
 
