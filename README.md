@@ -1,4 +1,4 @@
-# SleekMonkey
+# SleekMonkey 1.0.0
 
 A faced paced Monkey Patch for SleekXMPP to better handle TLS certificate date.
 
