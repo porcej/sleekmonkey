@@ -14,6 +14,7 @@ Changelog:
 """
 
 import sys
+import codecs
 try:
     from setuptools import setup, Command
 except ImportError:
@@ -39,7 +40,7 @@ CLASSIFIERS      = [ 'Intended Audience :: Developers',
 packages     = [ 'sleekmonkey']
 
 setup(
-    name             = "sleekxmpp",
+    name             = "sleekmonkey",
     version          = VERSION,
     description      = DESCRIPTION,
     long_description = LONG_DESCRIPTION,
@@ -50,6 +51,5 @@ setup(
     platforms    = [ 'any' ],
     packages     = packages,
     requires     = [ 'sleekxmpp' ],
-    classifiers  = CLASSIFIERS,
-    cmdclass     = {'test': TestCommand}
+    classifiers  = CLASSIFIERS
 )
