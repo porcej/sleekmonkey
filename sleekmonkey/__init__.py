@@ -37,7 +37,7 @@ def extract_dates_mp(raw_cert):
                     "SSL certificate expiration COULD NOT BE VERIFIED.")
         return None, None
 
-    log.info("Monkey Patched Date Extration")
+    log.info("Monkey Patched SleekXMPP's Date Extration.")
 
     cert = slk_cert.decoder.decode(raw_cert, asn1Spec=slk_cert.Certificate())[0]
     tbs = cert.getComponentByName('tbsCertificate')
