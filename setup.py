@@ -11,6 +11,7 @@ file, which you should have received as part of this distribution.
 
 Changelog:
     - 2018-12-12 - Initial Commit
+    - 2019-02-27 - Changed requires to install_requires
 """
 
 import sys
@@ -50,6 +51,6 @@ setup(
     license      = 'MIT',
     platforms    = [ 'any' ],
     packages     = packages,
-    requires     = [ 'sleekxmpp' ],
+    install_requires     = [ 'sleekxmpp' ],
     classifiers  = CLASSIFIERS
 )
